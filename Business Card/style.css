@@ -1,0 +1,58 @@
+.img{
+    width: 310px;
+   margin: 10px;
+   height: 250px;
+   margin-top: 15px;
+   
+}
+
+body{
+    
+   width: 700px;
+    padding: 10px;
+    margin: 0px auto;       
+}
+
+.content{
+    margin-top: 30px;
+    width: 300px;
+    height: 230px;      
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black, 0 0 25px blue, 0 0 10px rgb(169, 170, 162);
+    
+}
+
+.all{
+    background-color: #ddebf8;
+    display: flex   ;
+    justify-content: space-around;
+    border-bottom: 6px #d8cefe solid;
+    color: #15180a;
+    /* font-style :inherit; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1:hover{
+    background-color: aquamarine    ;
+}
+
+p:hover + div{
+    display: block;
+    /* overflow: auto; */
+}
+h3:hover{
+    background-color: #d8cefe;
+    
+}
+
+.skills {
+    /* ... existing styles ... */
+    position:absolute; /* Position the .skills div absolutely */
+    left: 1020px; /* Initially, set the left position to 0 (aligned with the .all div) */
+   bottom: 500px;
+    display: none;
+    
+  }
+
